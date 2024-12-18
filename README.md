@@ -15,13 +15,13 @@ A professional and responsive website template designed for healthcare providers
 ## Preview
 ![sdsfsdfs](https://github.com/user-attachments/assets/78c5ae36-d069-40fa-8af4-5e8642d7b538)
 
-[Live Demo](https://giszdevnere.github.io/medical-website-template/) (Add the demo link here)
+[Live Demo](https://giszdevnere.github.io/medical-website-template/)
 
 ## Technologies Used
 
 - **HTML5 & CSS3**
 - **JavaScript**
-- **Bootstrap (or Tailwind CSS)** - Optional
+- **Bootstrap (or Tailwind CSS)** 
 - **Font Awesome Icons**
 
 ## Installation
