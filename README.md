@@ -13,6 +13,8 @@ A professional and responsive website template designed for healthcare providers
 - **Customizable:** Easy to modify and adapt for your brand's needs.
 
 ## Preview
+- **Website in polish lang **
+
 ![sdsfsdfs](https://github.com/user-attachments/assets/78c5ae36-d069-40fa-8af4-5e8642d7b538)
 
 [Live Demo](https://giszdevnere.github.io/medical-website-template/)
