@@ -23,7 +23,6 @@ A professional and responsive website template designed for healthcare providers
 
 - **HTML5 & CSS3**
 - **JavaScript**
-- **Bootstrap (or Tailwind CSS)** 
 - **Font Awesome Icons**
 
 ## Installation
