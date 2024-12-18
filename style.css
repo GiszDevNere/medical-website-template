@@ -1,0 +1,174 @@
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 16px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul.menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul.menu li {
+            margin: 0 15px;
+        }
+
+        nav ul.menu li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul.menu li a:hover {
+            text-decoration: underline;
+            color: #00b4d8;
+        }
+
+        .Opis {
+            text-align: center;
+            padding: 64px 32px;
+            background: linear-gradient(to bottom, #0077b6, #00b4d8);
+            color: white;
+            box-shadow: inset 0 -4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .Opis h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .Opis p {
+            font-size: 19.2px;
+            margin-bottom: 32px;
+        }
+
+        .Opis a {
+            padding: 12.8px 24px;
+            background-color: white;
+            color: #0077b6;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            }
+
+        .Opis a:hover {
+            background-color: #005f87;
+            color: white;
+        }
+
+        .menu-section {
+            padding: 48px 32px;
+            background-color: white;
+            margin-top: 32px;
+        }
+
+        .menu-section h2 {
+            text-align: center;
+            font-size: 40px;
+            color: #0077b6;
+            margin-bottom: 32px;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+            padding: 16px 0;
+        }
+
+        .usługa {
+            background-color: #f1f1f1;
+            padding: 24px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .usługa:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .usługa img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 16px;
+        }
+
+        .usługa h3 {
+            margin: 16px 0;
+            color: #0077b6;
+        }
+
+        .usługa p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .usługa a {
+            padding: 10px 20px;
+            background-color: #0077b6;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .usługa a:hover {
+            background-color: #00b4d8;
+            color: white;
+        }
+
+        footer {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 16px 0;
+            margin-top: 32px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer ul.socials {
+            list-style: none;
+            padding: 0;
+            margin: 16px 0 0 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer ul.socials li {
+            margin: 0 10px;
+        }
+
+        footer ul.socials li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer ul.socials li a:hover {
+            text-decoration: underline;
+            color: #00b4d8;
+        }

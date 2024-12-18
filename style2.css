@@ -1,0 +1,142 @@
+html, body {
+    height: 100%; /* Ustawia wysokość na 100% okna przeglądarki */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Sprawia, że główny obszar zajmuje całą dostępną przestrzeń */
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 16px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.menu li {
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul.menu li a:hover {
+    text-decoration: underline;
+    color: #00b4d8;
+}
+
+.login-section {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 32px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-section h1 {
+    font-size: 36px;
+    color: #0077b6;
+    margin-bottom: 24px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #0077b6;
+    outline: none;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #00b4d8;
+}
+
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 32px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer ul.socials {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul.socials li {
+    margin: 0 10px;
+}
+
+footer ul.socials li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer ul.socials li a:hover {
+    text-decoration: underline;
+    color: #00b4d8;
+}
